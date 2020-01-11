@@ -1,0 +1,95 @@
+html {
+  font-family: sans-serif
+}
+
+.imgle{
+    width: 400px;
+    height: 300px;
+    float: left;
+    padding-right: 1%
+}
+
+.imgri{
+    width: 400px;
+    height: 300px;
+    padding-left: 1%;
+    float: right;
+    margin-right: 300px;
+}
+
+section{
+    height: 25em;
+}
+
+.p_sectioning{
+    float:left;
+}
+
+.fadein img {
+    position: absolute;
+    float:left;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    53% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    53% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#f1 {
+    background-color: lightblue;
+}
+
+#f2 {
+    -webkit-animation-delay: -4s;
+    background-color: yellow;
+}
+
+#f3 {
+    -webkit-animation-delay: -2s;
+    background-color: lightgreen;
+}
