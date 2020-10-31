@@ -15,7 +15,3 @@
 ## Contributing
 &nbsp;&nbsp;&nbsp;As this website provides good foundation to build a website for a community, club or a groups where we can show viewers the motto of our organization, update our da to day work with the contact information of company, faculty and stuff. As it also contains the webforms viewers can directly send email to the company representative from the website. 
 
-## Credits 
-&nbsp;&nbsp;&nbsp;This was an individual project.
-
-**License:** Licenced by me.
